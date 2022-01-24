@@ -12,7 +12,7 @@ rm(new.packages)
 
 library(devtools)
 require (devtools) 
-install.version("shinydashboardPlus", version="0.7.5",repos = "http://cran.us.r-project.org")
+install_version("shinydashboardPlus", version="0.7.5",repos = "http://cran.us.r-project.org")
 library(shiny)
 library(shinydashboard)
 library(shinydashboardPlus)
