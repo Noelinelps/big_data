@@ -1,9 +1,3 @@
-install.packages("caret")
-install.packages("pROC")
-install.packages("UBL")
-install.packages("randomForest")
-install.packages("adabag")
-
 library(ggplot2)
 library(cowplot)
 library(caret)
