@@ -12,6 +12,7 @@ rm(new.packages)
 
 library(shiny)
 library(shinydashboard)
+library(shinydashboardPlus)
 library(shinythemes)
 library(mathjaxr)
 library(shinycssloaders)
