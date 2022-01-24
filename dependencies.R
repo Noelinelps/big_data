@@ -10,6 +10,11 @@ if (length(new.packages)) {
 
 rm(new.packages)
 
+library(shiny)
+library(shinydashboard)
+library(shinythemes)
+library(mathjaxr)
+library(shinycssloaders)
 library(ggplot2)
 library(cowplot)
 library(caret)
