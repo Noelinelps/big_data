@@ -9,6 +9,7 @@ server = function(input, output) {
     showModal(modalDialog(
       includeHTML("intro.Rhtml"),
       easyClose = TRUE,
+      verify_fa = FALSE,
       footer = tagList(
         actionButton("pdf2", label = "Aide", icon = icon("question"), style="color: #fff; background-color: #6e5b5b; border-color: #484545")
       )
