@@ -1,7 +1,3 @@
-install.packages(devtools)
-library(devtools)
-require (devtools) 
-install_version("shinydashboardPlus", version="0.7.5",repos = "http://cran.us.r-project.org")
 
 required_packages <- c(
   "checkpoint"
@@ -15,6 +11,9 @@ if (length(new.packages)) {
 
 rm(new.packages)
 
+library(devtools)
+require (devtools) 
+install_version("shinydashboardPlus", version="0.7.5",repos = "http://cran.us.r-project.org")
 
 library(shiny)
 library(shinydashboard)
