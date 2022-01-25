@@ -265,7 +265,7 @@ body= dashboardBody(
             br(),
             p(style="text-align: justify;", "Pour toute question concernant cette application, n'hésitez pas à nous contacter."),
             br(),
-            fluidRow(userBox(
+            fluidRow(widgetUserBox(
               title = userDescription(
                 title =tags$a(href='https://www.linkedin.com/in/no%C3%ABline-lepais-731040174/',
                               icon("linkedin"),
@@ -273,7 +273,7 @@ body= dashboardBody(
                 type = 1,
                 image = "https://media-exp1.licdn.com/dms/image/C4E03AQFoDhRQd8jexw/profile-displayphoto-shrink_800_800/0/1639325629962?e=1648080000&v=beta&t=8dsZaoa-qOEiR0welua5_Olo2cPdjsblUrDAW4CDh_w")
             ),
-            userBox(
+            widgetUserBox(
               title = userDescription(
                 title =tags$a(href='https://www.linkedin.com/in/lou-daccord-ab668b1a3/',
                               icon("linkedin"),
