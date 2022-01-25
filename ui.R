@@ -265,18 +265,22 @@ body= dashboardBody(
             br(),
             p(style="text-align: justify;", "Pour toute question concernant cette application, n'hésitez pas à nous contacter."),
             br(),
-            fluidRow(widgetUserBox(
-              title = tags$a(href='https://www.linkedin.com/in/no%C3%ABline-lepais-731040174/',
+           fluidRow(userBox(
+              title = userDescription(
+                title =tags$a(href='https://www.linkedin.com/in/no%C3%ABline-lepais-731040174/',
                               icon("linkedin"),
                               'Noeline LEPAIS'),
-                src = "https://media-exp1.licdn.com/dms/image/C4E03AQFoDhRQd8jexw/profile-displayphoto-shrink_800_800/0/1639325629962?e=1648080000&v=beta&t=8dsZaoa-qOEiR0welua5_Olo2cPdjsblUrDAW4CDh_w"
+                type = 1,
+                image = "https://media-exp1.licdn.com/dms/image/C4E03AQFoDhRQd8jexw/profile-displayphoto-shrink_800_800/0/1639325629962?e=1648080000&v=beta&t=8dsZaoa-qOEiR0welua5_Olo2cPdjsblUrDAW4CDh_w")
             ),
-            widgetUserBox(
-              title = tags$a(href='https://www.linkedin.com/in/lou-daccord-ab668b1a3/',
-                              icon("linkedin"),
-                              'Lou DACCORD'),
-                src = "https://media-exp1.licdn.com/dms/image/C4D03AQGHt9VVHK6AOA/profile-displayphoto-shrink_800_800/0/1633191506540?e=1648080000&v=beta&t=995PS3m9PsPTtkz6gPhKViNPmEduNO4L1ntGO2fWaWk"
-              )),
+            userBox(
+              title = userDescription(
+                title =tags$a(href='https://www.linkedin.com/in/lou-daccord-ab668b1a3/',
+                             icon("linkedin"),
+                             'Lou DACCORD'),
+              type = 1,
+             image = "https://media-exp1.licdn.com/dms/image/C4D03AQGHt9VVHK6AOA/profile-displayphoto-shrink_800_800/0/1633191506540?e=1648080000&v=beta&t=995PS3m9PsPTtkz6gPhKViNPmEduNO4L1ntGO2fWaWk",
+             ))),
             br(),
             hr(style="border-top: 1px solid #000000;"))
   )
