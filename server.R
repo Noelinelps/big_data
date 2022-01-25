@@ -44,7 +44,7 @@ server = function(input, output) {
   lasso1 <- reactive({
     glmnet(x, y, alpha = 1, lamba=input$lambda.bestlasso , family = "binomial")
   })
-  
+   
   y.lasso1 <- reactive({
     predict(lasso1(), x_test, type="class",s=c(0))
   })
