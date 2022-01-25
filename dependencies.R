@@ -1,20 +1,21 @@
+install.packages(shiny)
+install.packages(shinydashboard)
+install.packages(shinydashboardPlus)
+install.packages(mathJaxr)
+install.packages(shinycssloaders)
+install.packages(ggplot2)
+install.packages(cowplot)
+install.package(caret)
+install.package(glmnet)
+install.package(pROC)
+install.package(UBL)
+install.package(randomForest)
+install.package(adabag)
 
-required_packages <- c(
-  "checkpoint"
-)
-
-new.packages <- required_packages[!(required_packages %in% installed.packages()[,"Package"])]
-
-if (length(new.packages)) {
-  install.packages(new.packages)
-}
-
-rm(new.packages)
 
 library(shiny)
 library(shinydashboard)
 library(shinydashboardPlus)
-library(shinythemes)
 library(mathjaxr)
 library(shinycssloaders)
 library(ggplot2)
