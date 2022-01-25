@@ -1,17 +1,3 @@
-install.packages('shinydashboard')
-install.packages('shinydashboardPlus')
-install.packages('mathJaxr')
-install.packages('shinycssloaders')
-install.packages('ggplot2')
-install.packages('cowplot')
-install.package('caret')
-install.package('glmnet')
-install.package('pROC')
-install.package('UBL')
-install.package('randomForest')
-install.package('adabag')
-
-
 library(shiny)
 library(shinydashboard)
 library(shinydashboardPlus)
